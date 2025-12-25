@@ -30,7 +30,7 @@ const init = async () => {
               <div class="flex-shrink-0 flex items-center cursor-pointer" id="home-logo">
                 <img src="/images/favicon.svg" alt="pdfup Logo" class="h-8 w-8">
                 <span class="text-white font-bold text-xl ml-2">
-                  <a href="index.html">pdfup</a>
+                  <a href="/">pdfup</a>
                 </span>
               </div>
             </div>
