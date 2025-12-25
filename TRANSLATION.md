@@ -1,6 +1,6 @@
-# 🌍 Translation Guide for BentoPDF
+# 🌍 Translation Guide for pdfup
 
-This guide will help you add new languages or improve existing translations for BentoPDF.
+This guide will help you add new languages or improve existing translations for pdfup.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ This guide will help you add new languages or improve existing translations for 
 
 ## Overview
 
-BentoPDF uses **i18next** for internationalization (i18n). Currently supported languages:
+pdfup uses **i18next** for internationalization (i18n). Currently supported languages:
 
 - **English** (`en`) - Default
 - **German** (`de`)
@@ -304,7 +304,7 @@ Test in different browsers:
 
 ### 1. Keep the Tone Consistent
 
-BentoPDF is **friendly, clear, and professional**. Match this tone in your translations.
+pdfup is **friendly, clear, and professional**. Match this tone in your translations.
 
 ✅ **Good:**
 ```json
@@ -322,7 +322,7 @@ Some strings contain HTML or special characters:
 
 ```json
 {
-  "faq.analytics.answer": "We care about your privacy. BentoPDF does not track personal information. We use <a href=\"https://simpleanalytics.com\" class=\"text-indigo-400 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">Simple Analytics</a> solely to see anonymous visit counts."
+  "faq.analytics.answer": "We care about your privacy. pdfup does not track personal information. We use <a href=\"https://simpleanalytics.com\" class=\"text-indigo-400 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">Simple Analytics</a> solely to see anonymous visit counts."
 }
 ```
 
@@ -330,7 +330,7 @@ When translating, **keep the HTML tags intact**:
 
 ```json
 {
-  "faq.analytics.answer": "Wir schätzen Ihre Privatsphäre. BentoPDF verfolgt keine persönlichen Informationen. Wir verwenden <a href=\"https://simpleanalytics.com\" class=\"text-indigo-400 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">Simple Analytics</a> ausschließlich, um anonyme Besucherzahlen zu sehen."
+  "faq.analytics.answer": "Wir schätzen Ihre Privatsphäre. pdfup verfolgt keine persönlichen Informationen. Wir verwenden <a href=\"https://simpleanalytics.com\" class=\"text-indigo-400 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">Simple Analytics</a> ausschließlich, um anonyme Besucherzahlen zu sehen."
 }
 ```
 
@@ -349,7 +349,7 @@ Example:
 ### 4. Don't Translate Brand Names or Legal Terms
 
 Keep these as-is:
-- BentoPDF
+- pdfup
 - PDF
 - GitHub
 - Discord
@@ -443,8 +443,7 @@ When adding a new language, make sure these files are updated:
 If you have questions or need help:
 
 1. Check existing translations in `public/locales/de/common.json` for reference
-2. Open an issue on [GitHub](https://github.com/alam00000/bentopdf/issues)
-3. Join our [Discord server](https://discord.gg/Bgq3Ay3f2w)
+2. Open an issue on [GitHub](https://github.com/alam00000/pdfup/issues)
 
 ---
 
@@ -462,7 +461,7 @@ Once you've completed a translation:
    - Screenshots showing the translation in action
    - Confirmation that you've tested all pages
 
-Thank you for contributing to BentoPDF! 🎉
+Thank you for contributing to pdfup! 🎉
 
 ---
 

@@ -187,7 +187,7 @@ export async function initializeQpdf() {
 export function initializeIcons(): void {
   createIcons({
     attrs: {
-      class: 'bento-icon',
+      class: 'pdfup-icon',
       'stroke-width': '1.5',
     },
   });

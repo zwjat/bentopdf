@@ -1,52 +1,44 @@
 <p align="center"><img src="public/images/favicon.svg" width="80"></p>
-<h1 align="center">BentoPDF</h1>
+<h1 align="center">pdfup</h1>
 
-**BentoPDF** is a powerful, privacy-first, client-side PDF toolkit that is self hostable and allows you to manipulate, edit, merge, and process PDF files directly in your browser. No server-side processing is required, ensuring your files remain secure and private.
+**pdfup** is a powerful, privacy-first, client-side PDF toolkit that is self hostable and allows you to manipulate, edit, merge, and process PDF files directly in your browser. No server-side processing is required, ensuring your files remain secure and private.
 
-![Docker Pulls](https://img.shields.io/docker/pulls/bentopdf/bentopdf) [![Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20Coffee-yellow?logo=kofi&style=flat-square)](https://ko-fi.com/alio0) ![GitHub Stars](https://img.shields.io/github/stars/alam00000/bentopdf?style=social)
+![Docker Pulls](https://img.shields.io/docker/pulls/pdfup/pdfup) [![Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20Coffee-yellow?logo=kofi&style=flat-square)](https://ko-fi.com/alio0) ![GitHub Stars](https://img.shields.io/github/stars/alam00000/pdfup?style=social)
 [![Sponsor me on GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4)](https://github.com/sponsors/alam00000)
 
-![BentoPDF Tools](public/images/bentopdf-tools.png)
-
----
-
-## 📢 Join Us on Discord
-
-[![Discord](https://img.shields.io/badge/Discord-Join%20Server-7289da?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Bgq3Ay3f2w)
-
-Have questions, feature requests, or want to chat with the community? Join our Discord server!
+![pdfup Tools](public/images/pdfup-tools.png)
 
 ---
 
 ## 📜 Licensing
 
-BentoPDF is dual-licensed:
+pdfup is dual-licensed:
 
 - **AGPL-3.0** for open-source projects where you share your full source code publicly
 - **Commercial License** for proprietary/closed-source applications - **[Get Lifetime License for $49](https://ko-fi.com/s/f32ca4cb75)** (a one-time lifetime purchase, includes all feature updates forever)
 
-For more details, see our [Licensing Page](https://bentopdf.com/licensing.html)
+For more details, see our [Licensing Page](https://pdfup.org/licensing.html)
 
 <hr>
 
 ## ⭐ Stargazers over time
 
-[![Star History Chart](https://api.star-history.com/svg?repos=alam00000/bentopdf&type=Date)](https://star-history.com/#alam00000/bentopdf&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=alam00000/pdfup&type=Date)](https://star-history.com/#alam00000/pdfup&Date)
 
 ---
 
-## ✨ Why BentoPDF?
+## ✨ Why pdfup?
 
 - **Privacy First**: All processing happens in your browser. Your files are never uploaded to a server, guaranteeing 100% privacy.
 - **No Limits**: Manipulate as many files as you want, as often you want. There are no restrictions or upload limits.
-- **High Performance**: Built with modern web technologies, BentoPDF is fast and efficient, handling even large PDF files with ease.
-- **Completely Free**: BentoPDF is a free and open-source tool for everyone.
+- **High Performance**: Built with modern web technologies, pdfup is fast and efficient, handling even large PDF files with ease.
+- **Completely Free**: pdfup is a free and open-source tool for everyone.
 
 ---
 
 ## 🛠️ Features / Tools Supported
 
-BentoPDF offers a comprehensive suite of tools to handle all your PDF needs.
+pdfup offers a comprehensive suite of tools to handle all your PDF needs.
 
 ### Organize & Manage PDFs
 
@@ -149,7 +141,7 @@ BentoPDF offers a comprehensive suite of tools to handle all your PDF needs.
 
 ## 🌍 Translations
 
-BentoPDF is available in multiple languages:
+pdfup is available in multiple languages:
 
 | Language | Status |
 |----------|--------|
@@ -157,13 +149,13 @@ BentoPDF is available in multiple languages:
 | German   | [![German](https://img.shields.io/badge/In_Progress-yellow?style=flat-square)](public/locales/de/common.json) |
 | Vietnamese | [![Vietnamese](https://img.shields.io/badge/Complete-green?style=flat-square)](public/locales/vi/common.json) |
 
-Want to help translate BentoPDF into your language? Check out our [Translation Guide](TRANSLATION.md)!
+Want to help translate pdfup into your language? Check out our [Translation Guide](TRANSLATION.md)!
 
 ---
 
 ## 🚀 Getting Started
 
-You can run BentoPDF locally for development or personal use.
+You can run pdfup locally for development or personal use.
 
 ### Prerequisites
 
@@ -175,36 +167,36 @@ You can run BentoPDF locally for development or personal use.
 
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/K4AU2B)
 
-You can run BentoPDF directly from Docker Hub or GitHub Container Registry without cloning the repository:
+You can run pdfup directly from Docker Hub or GitHub Container Registry without cloning the repository:
 
 You can also watch the video on how to set it up 👉
-[BentoPDF Docker Setup](https://drive.google.com/file/d/1C4eJ2nqeaH__1Tlad-xuBHaF2Ha4fSBf/view?usp=drive_link)
+[pdfup Docker Setup](https://drive.google.com/file/d/1C4eJ2nqeaH__1Tlad-xuBHaF2Ha4fSBf/view?usp=drive_link)
 
 **Using Docker Hub:**
 
 ```bash
-docker run -p 3000:8080 bentopdf/bentopdf:latest
+docker run -p 3000:8080 pdfup/pdfup:latest
 ```
 
 **Using GitHub Container Registry:**
 
 ```bash
-docker run -p 3000:8080 ghcr.io/alam00000/bentopdf:latest
+docker run -p 3000:8080 ghcr.io/alam00000/pdfup:latest
 ```
 
 Open your browser at: http://localhost:3000
 
-This is the fastest way to try BentoPDF without setting up a development environment.
+This is the fastest way to try pdfup without setting up a development environment.
 
 ### 🏠 Self-Hosting
 
-Since BentoPDF is fully client-side, all processing happens in the user's browser and no server-side processing is required. This means you can host BentoPDF as simple static files on any web server or hosting platform.
+Since pdfup is fully client-side, all processing happens in the user's browser and no server-side processing is required. This means you can host pdfup as simple static files on any web server or hosting platform.
 
 **Download from Releases (Recommended):**
 
-The easiest way to self-host is to download the pre-built distribution file from our [GitHub releases](https://github.com/alam00000/bentopdf/releases). Each release includes a `dist-{version}.zip` file that contains all necessary files for self-hosting.
+The easiest way to self-host is to download the pre-built distribution file from our [GitHub releases](https://github.com/alam00000/pdfup/releases). Each release includes a `dist-{version}.zip` file that contains all necessary files for self-hosting.
 
-1. Go to [BentoPDF Releases](https://github.com/alam00000/bentopdf/releases)
+1. Go to [pdfup Releases](https://github.com/alam00000/pdfup/releases)
 2. Download the latest `dist-{version}.zip` file
 3. Extract the zip file
 4. Serve the extracted folder with your preferred web server
@@ -229,8 +221,8 @@ If you prefer to build from source:
 
 ```bash
 # Clone the repository
-git clone https://github.com/alam00000/bentopdf.git
-cd bentopdf
+git clone https://github.com/alam00000/pdfup.git
+cd pdfup
 
 # Install dependencies
 npm install
@@ -250,41 +242,41 @@ npm run preview
 
 **Subdirectory Hosting:**
 
-BentoPDF can also be hosted from a subdirectory (e.g., `example.com/tools/bentopdf/`):
+pdfup can also be hosted from a subdirectory (e.g., `example.com/tools/pdfup/`):
 
 ```bash
 
 # Example:
-# 1. Build the app with the specific BASE_URL. BASE_URL must have a trailing and leading slash. The BASE_URL can be any url of your choice. Here we are using /tools/bentopdf/ as an example.
+# 1. Build the app with the specific BASE_URL. BASE_URL must have a trailing and leading slash. The BASE_URL can be any url of your choice. Here we are using /tools/pdfup/ as an example.
 
-BASE_URL=/tools/bentopdf/ npm run build
+BASE_URL=/tools/pdfup/ npm run build
 
 # 2. Create the nested directory structure inside serve-test (or any folder of your choice for local testing. In case of production, create the nested directory structure inside the root directory)
-mkdir -p serve-test/tools/bentopdf
+mkdir -p serve-test/tools/pdfup
 
 # 3. Copy all files from the 'dist' folder into that nested directory
-cp -r dist/* serve-test/tools/bentopdf/
+cp -r dist/* serve-test/tools/pdfup/
 
 # 4. Serve the 'serve-test' folder
 npx serve serve-test
 ```
 
-The website can be accessible at: ```http://localhost:3000/tools/bentopdf/```
+The website can be accessible at: ```http://localhost:3000/tools/pdfup/```
 
 The `npm run package` command creates a `dist-{version}.zip` file that you can use for self-hosting.
 
 **Docker Subdirectory Deployment:**
 
-BentoPDF's Docker image also supports the `BASE_URL` build argument for subdirectory deployments:
+pdfup's Docker image also supports the `BASE_URL` build argument for subdirectory deployments:
 
 ```bash
 # Build for subdirectory deployment
-docker build --build-arg BASE_URL=/bentopdf/ -t bentopdf .
+docker build --build-arg BASE_URL=/pdfup/ -t pdfup .
 
 # Run the container
-docker run -p 3000:8080 bentopdf
+docker run -p 3000:8080 pdfup
 
-# The app will be accessible at http://localhost:3000/bentopdf/
+# The app will be accessible at http://localhost:3000/pdfup/
 ```
 
 **Combined with Simple Mode:**
@@ -294,13 +286,13 @@ docker run -p 3000:8080 bentopdf
 docker build \
   --build-arg BASE_URL=/tools/pdf/ \
   --build-arg SIMPLE_MODE=true \
-  -t bentopdf-simple .
+  -t pdfup-simple .
 
-docker run -p 3000:8080 bentopdf-simple
+docker run -p 3000:8080 pdfup-simple
 ```
 
 > **Important**: 
-> - Always include trailing slashes in `BASE_URL` (e.g., `/bentopdf/` not `/bentopdf`)
+> - Always include trailing slashes in `BASE_URL` (e.g., `/pdfup/` not `/pdfup`)
 > - The default value is `/` for root deployment
 
 ### 🚀 Run with Docker Compose (Recommended)
@@ -311,9 +303,9 @@ For a more robust setup with auto-restart capabilities:
 
 ```yaml
 services:
-  bentopdf:
-    image: bentopdf/bentopdf:latest
-    container_name: bentopdf
+  pdfup:
+    image: pdfup/pdfup:latest
+    container_name: pdfup
     ports:
       - '3000:8080'
     restart: unless-stopped
@@ -329,7 +321,7 @@ The application will be available at `http://localhost:3000`.
 
 ### 🏢 Simple Mode for Internal Use
 
-For organizations that want a clean, distraction-free interface focused solely on PDF tools, BentoPDF supports a **Simple Mode** that hides all branding and marketing content.
+For organizations that want a clean, distraction-free interface focused solely on PDF tools, pdfup supports a **Simple Mode** that hides all branding and marketing content.
 
 **What Simple Mode does:**
 
@@ -342,7 +334,7 @@ For more details, see [SIMPLE_MODE.md](SIMPLE_MODE.md).
 
 ### 🔒 Security Features
 
-BentoPDF runs as a non-root user using nginx-unprivileged for enhanced security:
+pdfup runs as a non-root user using nginx-unprivileged for enhanced security:
 
 - **Non-Root Execution**: Container runs with minimal privileges using nginx-unprivileged
 - **Port 8080**: Uses high port number to avoid requiring root privileges
@@ -351,27 +343,27 @@ BentoPDF runs as a non-root user using nginx-unprivileged for enhanced security:
 #### Basic Usage
 
 ```bash
-docker build -t bentopdf .
-docker run -p 8080:8080 bentopdf
+docker build -t pdfup .
+docker run -p 8080:8080 pdfup
 ```
 
 For detailed security configuration, see [SECURITY.md](SECURITY.md).
 
 ### 📦 Version Management
 
-BentoPDF supports semantic versioning with multiple Docker tags available on both Docker Hub and GitHub Container Registry:
+pdfup supports semantic versioning with multiple Docker tags available on both Docker Hub and GitHub Container Registry:
 
 **Docker Hub:**
 
-- **Latest**: `bentopdf/bentopdf:latest`
-- **Specific Version**: `bentopdf/bentopdf:1.0.0`
-- **Version with Prefix**: `bentopdf/bentopdf:v1.0.0`
+- **Latest**: `pdfup/pdfup:latest`
+- **Specific Version**: `pdfup/pdfup:1.0.0`
+- **Version with Prefix**: `pdfup/pdfup:v1.0.0`
 
 **GitHub Container Registry:**
 
-- **Latest**: `ghcr.io/alam00000/bentopdf:latest`
-- **Specific Version**: `ghcr.io/alam00000/bentopdf:1.0.0`
-- **Version with Prefix**: `ghcr.io/alam00000/bentopdf:v1.0.0`
+- **Latest**: `ghcr.io/alam00000/pdfup:latest`
+- **Specific Version**: `ghcr.io/alam00000/pdfup:1.0.0`
+- **Version with Prefix**: `ghcr.io/alam00000/pdfup:v1.0.0`
 
 #### Quick Release
 
@@ -395,8 +387,8 @@ For detailed release instructions, see [RELEASE.md](RELEASE.md).
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/alam00000/bentopdf.git
-   cd bentopdf
+   git clone https://github.com/alam00000/pdfup.git
+   cd pdfup
    ```
 
 2. **Install Dependencies**:
@@ -416,8 +408,8 @@ For detailed release instructions, see [RELEASE.md](RELEASE.md).
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/alam00000/bentopdf.git
-   cd bentopdf
+   git clone https://github.com/alam00000/pdfup.git
+   cd pdfup
    ```
 
 2. **Run with Docker Compose**:
@@ -440,7 +432,7 @@ For detailed release instructions, see [RELEASE.md](RELEASE.md).
 
 ## 🛠️ Tech Stack & Background
 
-BentoPDF was originally built using **HTML**, **CSS**, and **vanilla JavaScript**. As the project grew, it was migrated to a modern stack for better maintainability and scalability:
+pdfup was originally built using **HTML**, **CSS**, and **vanilla JavaScript**. As the project grew, it was migrated to a modern stack for better maintainability and scalability:
 
 - **Vite**: A fast build tool for modern web development.
 - **TypeScript**: For type safety and an improved developer experience.
@@ -461,7 +453,6 @@ BentoPDF was originally built using **HTML**, **CSS**, and **vanilla JavaScript*
 - **PDF to Office**: Converts PDF files into editable Word, Excel, and PowerPoint formats.
 - **Office to PDF**: Converts Word, Excel, and PowerPoint documents into optimized PDFs.
 
-Contributions and discussions on the roadmap are welcome! Join the conversation via [Discord](https://discord.gg/Bgq3Ay3f2w).
 
 ---
 
@@ -474,13 +465,13 @@ We welcome contributions from the community! Here's how you can get started:
 3.  Make your changes and commit them with a clear message.
 4.  **Open a Pull Request** and describe the changes you've made.
 
-Have an idea for a new tool or an improvement? [Open an issue](https://github.com/alam00000/bentopdf/issues) to discuss it first.
+Have an idea for a new tool or an improvement? [Open an issue](https://github.com/alam00000/pdfup/issues) to discuss it first.
 
 ---
 
 ## Special Thanks
 
-BentoPDF wouldn't be possible without the amazing open-source tools and libraries that power it. We'd like to extend our heartfelt thanks to the creators and maintainers of:
+pdfup wouldn't be possible without the amazing open-source tools and libraries that power it. We'd like to extend our heartfelt thanks to the creators and maintainers of:
 
 - **[PDFLib.js](https://pdf-lib.js.org/)** – For enabling powerful client-side PDF manipulation.
 - **[PDF.js](https://mozilla.github.io/pdf.js/)** – For the robust PDF rendering engine in the browser.

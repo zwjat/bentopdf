@@ -28,9 +28,9 @@ const init = async () => {
           <div class="container mx-auto px-4">
             <div class="flex justify-start items-center h-16">
               <div class="flex-shrink-0 flex items-center cursor-pointer" id="home-logo">
-                <img src="/images/favicon.svg" alt="Bento PDF Logo" class="h-8 w-8">
+                <img src="/images/favicon.svg" alt="pdfup Logo" class="h-8 w-8">
                 <span class="text-white font-bold text-xl ml-2">
-                  <a href="index.html">BentoPDF</a>
+                  <a href="index.html">pdfup</a>
                 </span>
               </div>
             </div>
@@ -42,11 +42,6 @@ const init = async () => {
       const heroSection = document.getElementById('hero-section');
       if (heroSection) {
         heroSection.style.display = 'none';
-      }
-
-      const githubLink = document.querySelector('a[href*="github.com/alam00000/bentopdf"]');
-      if (githubLink) {
-        (githubLink as HTMLElement).style.display = 'none';
       }
 
       const featuresSection = document.getElementById('features-section');
@@ -96,11 +91,11 @@ const init = async () => {
             <div class="flex items-center justify-between flex-wrap gap-4">
               <div>
                 <div class="flex items-center mb-2">
-                  <img src="/images/favicon.svg" alt="Bento PDF Logo" class="h-8 w-8 mr-2">
-                  <span class="text-white font-bold text-lg">BentoPDF</span>
+                  <img src="/images/favicon.svg" alt="pdfup Logo" class="h-8 w-8 mr-2">
+                  <span class="text-white font-bold text-lg">pdfup</span>
                 </div>
                 <p class="text-gray-400 text-sm">
-                  &copy; 2025 BentoPDF. All rights reserved.
+                  &copy; 2025 pdfup. All rights reserved.
                 </p>
                 <p class="text-gray-500 text-xs mt-2">
                   Version <span id="app-version-simple">${APP_VERSION}</span>
@@ -111,17 +106,6 @@ const init = async () => {
           </div>
         `;
         document.body.appendChild(simpleFooter);
-
-        const langContainer = simpleFooter.querySelector('#simple-mode-lang-switcher');
-        if (langContainer) {
-          const switcher = createLanguageSwitcher();
-          const dropdown = switcher.querySelector('div[role="menu"]');
-          if (dropdown) {
-            dropdown.classList.remove('mt-2');
-            dropdown.classList.add('bottom-full', 'mb-2');
-          }
-          langContainer.appendChild(switcher);
-        }
       }
 
       const sectionDividers = document.querySelectorAll('.section-divider');
@@ -129,7 +113,7 @@ const init = async () => {
         (divider as HTMLElement).style.display = 'none';
       });
 
-      document.title = 'BentoPDF - PDF Tools';
+      document.title = 'pdfup - PDF Tools';
 
       const toolsHeader = document.getElementById('tools-header');
       if (toolsHeader) {
@@ -410,7 +394,7 @@ const init = async () => {
   ];
 
   if (githubStarsElements.some(el => el) && !__SIMPLE_MODE__) {
-    fetch('https://api.github.com/repos/alam00000/bentopdf')
+    fetch('https://api.github.com/repos/alam00000/pdfup')
       .then((response) => response.json())
       .then((data) => {
         if (data.stargazers_count !== undefined) {
